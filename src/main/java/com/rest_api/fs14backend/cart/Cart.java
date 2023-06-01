@@ -28,11 +28,11 @@ public class Cart {
     private UUID userId;
     private UUID productId;
 
-    public Cart(int price, int quantity, String title, UUID userId,UUID productId) {
-        this.price =price;
-        this.quantity =quantity;
-        this.title =title;
-        this.userId =userId;
+    public Cart(int price, int quantity, String title, UUID userId, UUID productId) {
+        this.price = price;
+        this.quantity = quantity;
+        this.title = title;
+        this.userId = userId;
         this.productId = productId;
     }
 
